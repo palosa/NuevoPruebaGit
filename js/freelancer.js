@@ -13,6 +13,7 @@
         return false;
       }
     }
+
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
@@ -24,6 +25,7 @@
   $('body').scrollspy({
     target: '#mainNav',
     offset: 54
+    
   });
 
   // Collapse the navbar when page is scrolled
